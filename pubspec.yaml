@@ -29,7 +29,8 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   flutter:
-    sdk: flutter
+    sdk: flutter 
+  flutter_tts: ^3.7.0 
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -53,7 +54,9 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
   assets:
-    "assets/a.jpg";
+    - assets/str_1.jpg
+    - assets/einstien.jpg
+    - assets/newton.jpg
 
 
   # The following line ensures that the Material Icons font is
